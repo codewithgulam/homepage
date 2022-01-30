@@ -1,0 +1,186 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .tool_header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f79432;
+        }
+        
+        #quick-contact ul {
+            display: flex;
+            align-items: center;
+        }
+        
+        #quick-contact ul li {
+            text-decoration: none;
+            list-style: none;
+            margin: 10px 10px 0 0;
+        }
+        
+        #quick-contact ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .logo-cont {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        hr {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container_1 {
+            /* border: 2px solid red; */
+            background-color: #e8d9f7;
+        }
+        
+        .col-title {
+            font-size: 32px;
+            text-align: justify;
+            letter-spacing: 1.5px;
+        }
+        
+        .img-width {
+            width: 0
+        }
+        /* navbar item started */
+        
+        .nav-item {
+            margin: 0 20px 0 20px;
+            /* border-right: 1px solid #fff;
+    border-right-width: 2px; */
+        }
+        
+        .navbar-brand {
+            margin-left: 2rem;
+        }
+        
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        /* navbar  item end */
+        /* content started here */
+        /* .updates_cont started here */
+        
+        .updates_cont {
+            display: flex;
+            align-items: center;
+            background: #e8d9f7;
+            height: 50px;
+        }
+        
+        .new_updates {
+            background: #5f02bd;
+            width: 150px;
+            color: #fff;
+            padding: 13px 20px;
+            text-align: right;
+        }
+        
+        .scroll_update {
+            width: 70vw;
+        }
+        /* .updates_cont ended here */
+        /* body-container started */
+        
+        .body-container {
+            /* height: 100vh; */
+            /* width: 100vw; */
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr;
+        }
+        
+        .sidebar_left {
+            /* border: 2px solid red; */
+            box-shadow: 1px 1px 8px 1px #175d80;
+            border-radius: 10px;
+        }
+        
+        .sidebar_right {
+            /* border: 2px solid red; */
+            /* height: 50vh; */
+            box-shadow: 1px 1px 8px 1px #175d80;
+            border-radius: 10px;
+        }
+        
+        .griv_portal {
+            height: 50%;
+            border-bottom: 2px solid gray;
+        }
+        
+        .main_container {
+            /* border: 2px solid blue; */
+        }
+        
+        .intitute_notice {
+            /* border: 2px solid blue; */
+            height: 400px;
+        }
+        
+        .news_events {
+            /* border: 2px solid red; */
+            height: 50vh;
+            border-bottom: 2px solid gray;
+        }
+        
+        .imp_links {
+            /* border: 2px solid red; */
+            height: 50vh;
+        }
+        
+        .portal_header {}
+        
+        .griv_para {
+            /* border: 2px solid yellow; */
+            height: 80%;
+        }
+        
+        .griv_para li {
+            list-style: none;
+        }
+        
+        .griv_para li a {
+            text-decoration: none;
+        }
+        
+        .notice_header {}
+        
+        .flex-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .flex-header {
+            border-bottom: 2px solid gray;
+        }
+        
+        .imp_links ul li a {
+            /* flex-direction: column; */
+            text-decoration: none;
+        }
+        
+        .imp_links ul li {
+            margin: 5px;
+        }
+        /* content end here */
+        
+        footer {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .footer {
+            background: #f79432;
+        }
