@@ -1,6 +1,7 @@
         * {
             margin: 0;
             padding: 0;
+            /* font-size: 20px; */
         }
         
         .tool_header {
@@ -43,7 +44,7 @@
         }
         
         .col-title {
-            font-size: 32px;
+            font-size: 2rem;
             text-align: justify;
             letter-spacing: 1.5px;
         }
@@ -139,8 +140,6 @@
             height: 50vh;
         }
         
-        .portal_header {}
-        
         .griv_para {
             /* border: 2px solid yellow; */
             height: 80%;
@@ -153,8 +152,6 @@
         .griv_para li a {
             text-decoration: none;
         }
-        
-        .notice_header {}
         
         .flex-header {
             display: flex;
